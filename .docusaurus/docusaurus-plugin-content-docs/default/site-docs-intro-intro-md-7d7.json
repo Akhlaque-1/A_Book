@@ -1,0 +1,23 @@
+{
+  "id": "intro/intro",
+  "title": "Introduction",
+  "description": "Welcome to the Autonomous Humanoid Robot System documentation. This repository contains the implementation of an autonomous humanoid robot system with four core modules:",
+  "source": "@site/docs/intro/intro.md",
+  "sourceDirName": "intro",
+  "slug": "/intro/",
+  "permalink": "/docs/intro/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/intro/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/getting-started/installation"
+  }
+}

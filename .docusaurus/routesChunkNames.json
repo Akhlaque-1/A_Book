@@ -1,0 +1,100 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/chatbot/-5d9": {
+    "__comp": "__comp---site-src-pages-chatbot-index-js-361-10e",
+    "__context": {
+      "plugin": "plugin---chatbot-a-74-a47"
+    },
+    "config": "config---chatbot-5-e-9-00b"
+  },
+  "/docs-20f": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-392": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-532": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/getting-started/installation-267": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-installation-54-f-18d"
+  },
+  "/docs/getting-started/quick-start-09c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-quick-start-588-94b"
+  },
+  "/docs/intro/-014": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-7-d-7-639"
+  },
+  "/docs/modules/ai-robot-brain-b4a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-ai-robot-brain-98-c-1b6"
+  },
+  "/docs/modules/digital-twin-660": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-digital-twinece-aa7"
+  },
+  "/docs/modules/ros2-nervous-system-fe8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-ros-2-nervous-system-1-cf-183"
+  },
+  "/docs/modules/vla-module-435": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-modules-vla-module-94-c-48b"
+  },
+  "/-2e1": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__context": {
+      "plugin": "plugin---chatbot-a-74-a47"
+    },
+    "config": "config---chatbot-5-e-9-00b"
+  }
+}

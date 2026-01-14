@@ -1,0 +1,20 @@
+{
+  "id": "modules/vla-module",
+  "title": "Vision-Language-Action (VLA) Module",
+  "description": "The Vision-Language-Action (VLA) module handles cognitive planning and multi-modal interaction, converting human instructions to robot actions.",
+  "source": "@site/docs/modules/vla-module.md",
+  "sourceDirName": "modules",
+  "slug": "/modules/vla-module",
+  "permalink": "/docs/modules/vla-module",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/modules/vla-module.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AI-Robot Brain",
+    "permalink": "/docs/modules/ai-robot-brain"
+  }
+}

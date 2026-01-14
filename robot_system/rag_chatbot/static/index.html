@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Chatbot for Book Content</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RAG Chatbot for Book Content</h1>
+            <p>Ask questions about the book content or select text to ask specific questions</p>
+        </header>
+        
+        <div class="book-content" id="bookContent">
+            <h2>Book Content</h2>
+            <div class="content-area">
+                <p id="bookText">The book content will be loaded here. This is a placeholder text to demonstrate the interface. When the actual book content is loaded, you'll be able to select text and ask questions about it.</p>
+            </div>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-history" id="chatHistory">
+                <!-- Chat messages will appear here -->
+                <div class="message bot-message">
+                    <strong>Chatbot:</strong> Hello! I'm your book assistant. You can ask me questions about the book content, or select text and ask questions about that specific text.
+                </div>
+            </div>
+            
+            <div class="input-area">
+                <textarea 
+                    id="userInput" 
+                    placeholder="Ask a question about the book content..." 
+                    rows="3"
+                ></textarea>
+                <button id="sendButton">Send</button>
+                <button id="selectedTextButton">Ask about selected text</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
