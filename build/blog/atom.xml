@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://a-book-akhlaque-1.vercel.app/blog</id>
+    <title>A_Book Documentation Blog</title>
+    <updated>2026-01-15T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://a-book-akhlaque-1.vercel.app/blog"/>
+    <subtitle>A_Book Documentation Blog</subtitle>
+    <icon>https://a-book-akhlaque-1.vercel.app/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome to A_Book Blog]]></title>
+        <id>https://a-book-akhlaque-1.vercel.app/blog/welcome</id>
+        <link href="https://a-book-akhlaque-1.vercel.app/blog/welcome"/>
+        <updated>2026-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the A_Book blog! This is where we share updates and insights about documentation and knowledge sharing.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the A_Book blog! This is where we share updates and insights about documentation and knowledge sharing.</p>
+<p>Additional content goes here.</p>]]></content>
+        <category label="welcome" term="welcome"/>
+        <category label="documentation" term="documentation"/>
+    </entry>
+</feed>

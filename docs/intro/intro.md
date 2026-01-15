@@ -38,4 +38,4 @@ The prerequisites vary depending on the topic you're exploring. Each section wil
 
 ## Next Steps
 
-To begin exploring our documentation, check out our [Installation Guide](./getting-started/installation.md) and [Quick Start](./getting-started/quick-start.md) documentation.
+To begin exploring our documentation, check out our [Setup Guide](../getting-started/installation.md) and [Quick Start](../getting-started/quick-start.md) documentation.

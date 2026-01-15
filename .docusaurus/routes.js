@@ -3,6 +3,36 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/blog',
+    component: ComponentCreator('/blog', '6a7'),
+    exact: true
+  },
+  {
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
+    exact: true
+  },
+  {
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/documentation',
+    component: ComponentCreator('/blog/tags/documentation', '667'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/welcome',
+    component: ComponentCreator('/blog/tags/welcome', '731'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', '23e'),
+    exact: true
+  },
+  {
     path: '/chatbot/',
     component: ComponentCreator('/chatbot/', '5d9'),
     exact: true

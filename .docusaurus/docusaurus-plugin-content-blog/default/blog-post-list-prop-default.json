@@ -1,4 +1,11 @@
 {
   "title": "Recent posts",
-  "items": []
+  "items": [
+    {
+      "title": "Welcome to A_Book Blog",
+      "permalink": "/blog/welcome",
+      "unlisted": false,
+      "date": "2026-01-15T00:00:00.000Z"
+    }
+  ]
 }

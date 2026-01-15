@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkqwen=globalThis.webpackChunkqwen||[]).push([[121],{8070(e){e.exports=JSON.parse('{"tags":[{"label":"welcome","permalink":"/blog/tags/welcome","count":1},{"label":"documentation","permalink":"/blog/tags/documentation","count":1}]}')}}]);
