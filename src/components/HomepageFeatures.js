@@ -9,19 +9,33 @@ const FeatureList = [
     Svg: () => (
       <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
         <rect width="24" height="24" fill="#25c2a0"/>
-        <text x="12" y="16" text-anchor="middle" fill="white" font-size="10">Docusaurus</text>
+        <text x="12" y="16" text-anchor="middle" fill="white" font-size="10">A_Book</text>
       </svg>
     ),
     description: (
       <>
-        The Autonomous Humanoid Robot System is designed to be intuitive for both
-        researchers and developers. The modular architecture allows for easy
-        customization and extension.
+        A_Book is designed to be intuitive and accessible for everyone.
+        Our comprehensive documentation makes it easy to find what you need.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus on Learning',
+    Svg: () => (
+      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
+        <rect width="24" height="24" fill="#25c2a0"/>
+        <text x="12" y="16" text-anchor="middle" fill="white" font-size="10">A_Book</text>
+      </svg>
+    ),
+    description: (
+      <>
+        Spend less time searching and more time learning with our
+        well-organized and comprehensive documentation.
+      </>
+    ),
+  },
+  {
+    title: 'Powered by Docusaurus',
     Svg: () => (
       <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
         <rect width="24" height="24" fill="#25c2a0"/>
@@ -30,24 +44,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        The system handles complex robotics tasks like perception, navigation,
-        and human-robot interaction, so you can focus on your specific research
-        or application.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by ROS2',
-    Svg: () => (
-      <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24">
-        <rect width="24" height="24" fill="#25c2a0"/>
-        <text x="12" y="16" text-anchor="middle" fill="white" font-size="10">Docusaurus</text>
-      </svg>
-    ),
-    description: (
-      <>
-        Built on top of ROS2 and NVIDIA Isaac, providing a robust foundation
-        for robotics applications with extensive community support.
+        Built with Docusaurus, providing a robust and scalable
+        documentation platform with excellent search capabilities.
       </>
     ),
   },

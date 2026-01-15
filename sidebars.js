@@ -11,7 +11,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Modules',
+      label: 'Core Concepts',
       items: [
         'modules/ros2-nervous-system',
         'modules/digital-twin',

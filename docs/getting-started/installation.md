@@ -2,84 +2,61 @@
 sidebar_position: 1
 ---
 
-# Installation
+# Setup
 
-This guide will walk you through the installation process for the Autonomous Humanoid Robot System.
+This guide will walk you through how to set up and use the A_Book documentation.
 
 ## Prerequisites
 
-Before installing the system, ensure you have the following prerequisites:
+Before exploring the A_Book documentation, ensure you have:
 
-- Ubuntu 22.04 LTS
-- ROS 2 Humble Hawksbill
-- NVIDIA Isaac ROS packages
-- Gazebo Garden
-- Unity 2022.3 LTS (optional, for high-fidelity visualization)
-- Python 3.8+
-- CUDA 11.8+ (for NVIDIA hardware acceleration)
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- Internet connection to access online resources
+- Basic familiarity with the topics covered in the documentation you're exploring
 
-## Installing ROS 2 Humble
+## Accessing the Documentation
 
-1. Set up your Ubuntu repositories:
+The A_Book documentation is available online at the main website. Simply visit the site to start browsing the available content.
+
+## Local Development (Optional)
+
+If you wish to contribute to the documentation or run it locally:
+
+1. Install Node.js (version 18 or higher):
    ```bash
-   sudo apt update && sudo apt install -y curl gnupg lsb-release
-   curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
-   echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+   # Using a Node version manager like nvm is recommended
+   nvm install 18
+   nvm use 18
    ```
 
-2. Install ROS 2 Humble packages:
+2. Clone the repository:
    ```bash
-   sudo apt update
-   sudo apt install ros-humble-desktop
+   git clone https://github.com/Akhlaque-1/A_Book.git
+   cd A_Book
    ```
 
-3. Install colcon build system:
+3. Install dependencies:
    ```bash
-   sudo apt install python3-colcon-common-extensions
+   npm install
    ```
 
-## Setting up the Workspace
-
-1. Create a new ROS workspace:
+4. Start the development server:
    ```bash
-   mkdir -p ~/robot_system_ws/src
-   cd ~/robot_system_ws
+   npm start
    ```
 
-2. Clone the robot system repository:
-   ```bash
-   cd ~/robot_system_ws/src
-   git clone <repository-url>
-   ```
+## Navigation
 
-3. Install ROS dependencies:
-   ```bash
-   cd ~/robot_system_ws
-   rosdep install --from-paths src --ignore-src -r -y
-   ```
+The documentation is organized into several categories accessible through the sidebar. Each section builds upon previous concepts, so starting from the beginning is recommended for newcomers.
 
-## Building the System
+## Searching the Documentation
 
-1. Build the workspace:
-   ```bash
-   cd ~/robot_system_ws
-   colcon build --packages-select ros2_nervous_system digital_twin ai_robot_brain vla_module
-   ```
+Use the search bar at the top of the page to quickly find specific topics or keywords across all documentation.
 
-2. Source the workspace:
-   ```bash
-   source ~/robot_system_ws/install/setup.bash
-   ```
+## Contributing
 
-## Verification
-
-To verify that the installation was successful, try running:
-```bash
-ros2 run vla_module voice_service
-```
-
-If you see output indicating the service is running, the installation was successful.
+If you'd like to contribute to the documentation, please refer to our contribution guidelines in the repository.
 
 ## Next Steps
 
-After installation, check out our [Quick Start](./quick-start.md) guide to learn how to run the system.
+After familiarizing yourself with the setup, check out our [Quick Start](./quick-start.md) guide to learn how to navigate and use the documentation effectively.

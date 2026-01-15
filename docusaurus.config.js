@@ -3,19 +3,18 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Autonomous Humanoid Robot System',
-  tagline: 'Documentation for the Qwen Robot System',
+  title: 'A_Book Documentation',
+  tagline: 'Comprehensive documentation and guides',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-github-username.github.io', // Replace 'your-github-username' with your actual GitHub username
+  url: 'https://a-book-akhlaque-1.vercel.app', // Vercel URL for your project
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/robot-system/', // This should match your repository name
+  baseUrl: '/', // For Vercel deployment, use root path
 
-  // GitHub pages deployment config.
-  organizationName: 'your-github-username', // Replace with your GitHub username
-  projectName: 'robot-system', // Usually your repo name.
+  // GitHub pages deployment config - commented out for Vercel
+  // organizationName: 'Akhlaque-1', // Your GitHub username
+  // projectName: 'A_Book', // Your repo name
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -38,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/qwen/robot-system/tree/main/docs/',
+            'https://github.com/Akhlaque-1/A_Book/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/qwen/robot-system/tree/main/blog/',
+            'https://github.com/Akhlaque-1/A_Book/tree/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,9 +59,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Robot System Docs',
+        title: 'A_Book Docs',
         logo: {
-          alt: 'Robot System Logo',
+          alt: 'A_Book Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -75,7 +74,7 @@ const config = {
           {to: '/chatbot', label: 'Chat with Book', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/qwen/robot-system',
+            href: 'https://github.com/Akhlaque-1/A_Book',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,12 +122,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/qwen/robot-system',
+                href: 'https://github.com/Akhlaque-1/A_Book',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Qwen Robot System. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} A_Book Project. Built with Docusaurus.`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.github,

@@ -1,161 +1,156 @@
-# Vision-Language-Action (VLA) Module
+# Multi-Modal Interaction System
 
-The Vision-Language-Action (VLA) module handles cognitive planning and multi-modal interaction, converting human instructions to robot actions.
+A Multi-Modal Interaction System handles cognitive processing and multi-modal integration, converting human inputs to system actions through natural language understanding and intelligent processing.
 
 ## Overview
 
-The VLA Module is responsible for:
+The Multi-Modal Interaction System is responsible for:
 
-- Voice command processing and natural language understanding
-- Multi-modal interaction (vision, language, action)
+- Natural language processing and understanding
+- Multi-modal input processing (text, voice, gesture)
 - Cognitive planning and reasoning
-- Converting high-level commands to executable actions
-- Human-robot interaction
+- Converting high-level requests to executable operations
+- Human-system interaction
 
 ## Components
 
-### Voice Processing
+### Input Processing
 
-The voice processing component handles speech recognition and synthesis:
+The input processing component handles various forms of user input:
 
-```python
-class VoiceService(Node):
-    def __init__(self):
-        super().__init__('voice_service')
-        # Speech recognition, text-to-speech, audio processing
+```javascript
+class InputProcessor {
+    constructor() {
+        // Text processing, voice transcription, input normalization
+    }
+}
 ```
 
-#### Speech Recognition
+#### Text Processing
 
-- Real-time speech-to-text conversion
-- Noise cancellation
-- Speaker identification
+- Real-time text analysis
+- Syntax and semantic analysis
+- Context preservation
 - Language model integration
 
-#### Text-to-Speech
+#### Voice Processing
 
-- Natural voice synthesis
-- Emotional tone control
+- Natural voice interpretation
+- Emotional tone recognition
 - Multi-language support
-- Audio output management
+- Audio input management
 
-### NLP Processor
+### Language Understanding
 
-The Natural Language Processing component interprets user commands:
+The Natural Language Processing component interprets user requests:
 
-```python
-class NlpProcessor(Node):
-    def __init__(self):
-        super().__init__('nlp_processor')
-        # Intent recognition, entity extraction, command parsing
+```javascript
+class LanguageProcessor {
+    constructor() {
+        // Intent recognition, entity extraction, request parsing
+    }
+}
 ```
 
 #### Intent Recognition
 
-- Classification of user intent (navigate, manipulate, report status)
+- Classification of user intent (query, command, report)
 - Context-aware understanding
-- Command validation
+- Request validation
 - Error handling
 
 #### Entity Extraction
 
-- Location identification
-- Object recognition in text
-- Action parameter extraction
+- Key information identification
+- Contextual element recognition
+- Parameter extraction
 - Reference resolution
 
-### Action Planner
+### Operation Planner
 
-The action planning component converts high-level commands into executable action sequences:
+The operation planning component converts high-level requests into executable sequences:
 
-```python
-class ActionPlanner(Node):
-    def __init__(self):
-        super().__init__('action_planner')
-        # Action sequence generation, plan optimization
+```javascript
+class OperationPlanner {
+    constructor() {
+        // Operation sequence generation, plan optimization
+    }
+}
 ```
 
 #### Plan Generation
 
-- High-level command interpretation
-- Action sequence creation
+- High-level request interpretation
+- Operation sequence creation
 - Resource allocation
 - Plan validation
 
 #### Plan Execution
 
-- Action sequencing
+- Operation sequencing
 - Execution monitoring
 - Plan adjustment
 - Failure recovery
 
-## Launch Files
-
-The VLA Module can be launched using:
-
-```bash
-ros2 launch vla_module vla_system.launch.py
-```
-
 ## Configuration
 
-The VLA Module can be configured through:
+The Multi-Modal Interaction System can be configured through:
 
-- `config/voice.yaml` - Voice processing parameters
-- `config/nlp.yaml` - NLP model and parameters
-- `config/planning.yaml` - Action planning parameters
-- `config/models/` - Language and vision model configurations
+- `config/input.json` - Input processing parameters
+- `config/nlp.json` - NLP model and parameters
+- `config/planning.json` - Operation planning parameters
+- `config/models/` - Language model configurations
 
-## Topics and Services
+## APIs and Endpoints
 
-### Published Topics
+### Provided Endpoints
 
-- `/processed_user_command` - Commands with intent and parameters
-- `/action_plan` - Generated action sequences
-- `/robot_feedback` - Feedback to the user
-- `/voice_output` - Text to be spoken
+- `/processed_user_request` - Requests with intent and parameters
+- `/operation_plan` - Generated operation sequences
+- `/system_feedback` - Feedback to the user
+- `/response_output` - Response content
 
-### Subscribed Topics
+### Consumed Endpoints
 
-- `/user_audio` - Raw audio input
-- `/robot_state` - Current robot state
-- `/perception_results` - Environmental perception data
-- `/navigation_path` - Navigation information
+- `/user_input` - Raw user input
+- `/system_state` - Current system state
+- `/data_results` - Processed data from other modules
+- `/service_info` - Information from other services
 
 ### Services
 
-- `/process_command` - Service to process a text command
-- `/generate_action_plan` - Service to create an action plan
-- `/speak_text` - Service to have robot speak text
+- `/process_request` - Endpoint to process a text request
+- `/generate_operation_plan` - Endpoint to create an operation plan
+- `/generate_response` - Endpoint to generate a response
 
 ## Multi-Modal Integration
 
-The VLA Module integrates multiple modalities:
+The Multi-Modal Interaction System integrates multiple modalities:
 
-- Vision: Uses perception data to understand the environment
-- Language: Processes natural language commands
-- Action: Generates executable action sequences
+- Text: Processes natural language requests
+- Voice: Handles voice-based interactions
+- Operations: Generates executable sequences
 - Context: Maintains conversation and task context
 
-## Supported Commands
+## Supported Requests
 
-The system understands various types of commands:
+The system understands various types of requests:
 
-- Navigation: "Go to the kitchen", "Move to the living room"
-- Manipulation: "Pick up the red ball", "Put the book on the table"
-- Status: "Report your status", "What can you see?"
-- Complex tasks: "Go to the kitchen and bring me the water bottle"
+- Queries: "Show me sales data", "What is the status?"
+- Commands: "Generate a report", "Send notification to team"
+- Status: "Report system status", "What are the latest updates?"
+- Complex tasks: "Analyze sales data and create a report for the team"
 
 ## Performance Optimization
 
 - Efficient NLP model usage
 - Context-aware processing
-- Multi-threaded execution
+- Asynchronous execution
 - Caching of common operations
 
 ## Troubleshooting
 
-- If voice recognition fails, check audio input quality
-- If commands are misunderstood, verify NLP model
-- If actions aren't planned correctly, check action planner
+- If input processing fails, check input format
+- If requests are misunderstood, verify NLP model
+- If operations aren't planned correctly, check planner configuration
 - If responses are slow, optimize model inference

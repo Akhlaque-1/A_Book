@@ -6,7 +6,7 @@ import styles from './Chatbot.module.css';
 
 function Chatbot() {
   const [messages, setMessages] = useState([
-    { id: 1, text: "Hello! I'm your book assistant. Ask me anything about the Autonomous Humanoid Robot System.", sender: 'bot' }
+    { id: 1, text: "Hello! I'm your book assistant. Ask me anything about the A_Book documentation.", sender: 'bot' }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -30,27 +30,23 @@ function Chatbot() {
   const simulateBotResponse = (userMessage) => {
     // This is a simple simulation - in a real implementation, you would connect to an AI service
     const lowerCaseMessage = userMessage.toLowerCase();
-    
+
     if (lowerCaseMessage.includes('hello') || lowerCaseMessage.includes('hi') || lowerCaseMessage.includes('hey')) {
-      return "Hello there! How can I help you with information about the Autonomous Humanoid Robot System?";
-    } else if (lowerCaseMessage.includes('what') && lowerCaseMessage.includes('robot')) {
-      return "The Autonomous Humanoid Robot System is a sophisticated robotics platform with four core modules: Robotic Nervous System (ROS 2), Digital Twin (Gazebo/Unity), AI-Robot Brain (NVIDIA Isaac), and Vision-Language-Action (VLA) module.";
-    } else if (lowerCaseMessage.includes('nervous') || lowerCaseMessage.includes('ros')) {
-      return "The Robotic Nervous System is the core communication layer using ROS 2. It manages communication between sensors, actuators, and AI modules.";
-    } else if (lowerCaseMessage.includes('digital') || lowerCaseMessage.includes('simulation') || lowerCaseMessage.includes('gazebo')) {
-      return "The Digital Twin module provides physics simulation and environment modeling using Gazebo and Unity. It enables virtual testing for humanoid robots.";
-    } else if (lowerCaseMessage.includes('ai') || lowerCaseMessage.includes('brain') || lowerCaseMessage.includes('navigation')) {
-      return "The AI-Robot Brain handles perception, navigation, and learning using NVIDIA Isaac technologies. It processes sensory input to understand the environment and make decisions.";
-    } else if (lowerCaseMessage.includes('vla') || lowerCaseMessage.includes('voice') || lowerCaseMessage.includes('action')) {
-      return "The Vision-Language-Action (VLA) module handles cognitive planning and multi-modal interaction, converting human instructions to robot actions.";
-    } else if (lowerCaseMessage.includes('install') || lowerCaseMessage.includes('setup')) {
-      return "To install the system, you need Ubuntu 22.04 LTS with ROS 2 Humble Hawksbill, NVIDIA Isaac ROS packages, Gazebo Garden, and Python 3.8+. Check the installation guide in the documentation.";
+      return "Hello there! How can I help you with information about the A_Book documentation?";
+    } else if (lowerCaseMessage.includes('what') && lowerCaseMessage.includes('book')) {
+      return "A_Book is a comprehensive documentation platform designed to provide detailed guides and resources on various topics. It's built with Docusaurus for optimal user experience.";
+    } else if (lowerCaseMessage.includes('documentation') || lowerCaseMessage.includes('guide')) {
+      return "Our documentation covers a wide range of topics with detailed guides, tutorials, and reference materials. You can browse through different sections to find what you need.";
+    } else if (lowerCaseMessage.includes('search') || lowerCaseMessage.includes('find')) {
+      return "You can use the search bar at the top of the site to find specific topics, or browse through our organized documentation sections.";
+    } else if (lowerCaseMessage.includes('contribute') || lowerCaseMessage.includes('help')) {
+      return "We welcome contributions! You can contribute by suggesting improvements, reporting issues, or adding new content through our GitHub repository.";
     } else if (lowerCaseMessage.includes('thank')) {
       return "You're welcome! Is there anything else I can help you with?";
     } else if (lowerCaseMessage.includes('bye') || lowerCaseMessage.includes('goodbye')) {
-      return "Goodbye! Feel free to ask if you have more questions about the Autonomous Humanoid Robot System.";
+      return "Goodbye! Feel free to explore the A_Book documentation for more information.";
     } else {
-      return "I'm your book assistant for the Autonomous Humanoid Robot System. I can provide information about the robot's architecture, modules, and functionality. What would you like to know?";
+      return "I'm your book assistant for A_Book. I can provide information about the documentation structure, content, and how to navigate the resources. What would you like to know?";
     }
   };
 
@@ -84,11 +80,11 @@ function Chatbot() {
   };
 
   return (
-    <Layout title="Book Chatbot" description="Chat with the book assistant for the Autonomous Humanoid Robot System">
+    <Layout title="Book Chatbot" description="Chat with the book assistant for A_Book documentation">
       <div className={clsx('container', styles.chatContainer)}>
         <div className={styles.chatHeader}>
           <h1>Book Assistant</h1>
-          <p>Ask me anything about the Autonomous Humanoid Robot System</p>
+          <p>Ask me anything about the A_Book documentation</p>
         </div>
         
         <div className={styles.chatBox}>

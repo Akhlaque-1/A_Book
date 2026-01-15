@@ -1,83 +1,77 @@
-# ROS2 Nervous System
+# Core Communication Layer
 
-The Robotic Nervous System is the core communication layer of the Autonomous Humanoid Robot System. It manages communication between sensors, actuators, and AI modules using ROS 2.
+The Core Communication Layer is the fundamental system that connects all components of a distributed application. It manages communication between different modules and services.
 
 ## Overview
 
-The ROS2 Nervous System serves as the middleware that connects all components of the robot system. It handles:
+The Core Communication Layer serves as the middleware that connects all components of a system. It handles:
 
-- Sensor data distribution
-- Actuator command execution
+- Data distribution
+- Service coordination
 - Inter-module communication
-- Safety monitoring
+- Status monitoring
 - System state management
 
 ## Components
 
-### Sensor Fusion Node
+### Data Aggregation Module
 
-The sensor fusion node collects data from multiple sensors and synchronizes it within a time window:
+The data aggregation module collects information from multiple sources and processes it within a defined timeframe:
 
-```python
-class SensorFusionNode(Node):
-    def __init__(self):
-        super().__init__('sensor_fusion_node')
-        self.synchronization_window = 0.1  # 100ms window for sensor synchronization
-        # Publishers and subscribers for various sensor types
+```javascript
+class DataAggregator {
+    constructor() {
+        this.processingWindow = 100; // 100ms window for data synchronization
+        // Handlers for various data sources
+    }
+}
 ```
 
-### VLA Interface
+### Interface Manager
 
-The VLA interface handles communication between the Vision-Language-Action module and the robot's control systems:
+The interface manager handles communication between different modules and the system's core components:
 
-```python
-class VlaInterface(Node):
-    def __init__(self):
-        super().__init__('vla_interface')
-        # Publishers and subscribers for action plans and commands
-```
-
-## Launch Files
-
-The system can be launched using:
-
-```bash
-ros2 launch ros2_nervous_system core_system.launch.py
+```javascript
+class InterfaceManager {
+    constructor() {
+        // Handlers for different module interfaces
+    }
+}
 ```
 
 ## Configuration
 
-The nervous system can be configured through YAML files in the `config` directory:
+The communication layer can be configured through JSON or YAML files in the `config` directory:
 
-- `sensors.yaml` - Sensor configuration parameters
-- `actuators.yaml` - Actuator configuration parameters
-- `safety.yaml` - Safety limits and monitoring parameters
+- `sources.json` - Data source configuration parameters
+- `services.json` - Service configuration parameters
+- `monitoring.json` - Monitoring and alerting parameters
 
-## Topics and Services
+## Communication Patterns
 
-### Published Topics
+### Published Events
 
-- `/sensor_data` - Fused sensor information
-- `/robot_state` - Current state of the robot
-- `/system_status` - Overall system health
+- `/data_updates` - Processed information from various sources
+- `/system_state` - Current state of the system
+- `/health_status` - Overall system health
 
-### Subscribed Topics
+### Subscribed Events
 
-- `/action_plan` - Action plans from the VLA module
-- `/navigation_goal` - Navigation goals from the AI brain
-- `/emergency_stop` - Emergency stop commands
+- `/action_requests` - Requests from different modules
+- `/control_commands` - Commands from the control system
+- `/emergency_signals` - Emergency notifications
 
-### Services
+### APIs
 
-- `/execute_action` - Service to execute specific actions
-- `/get_robot_state` - Service to query robot state
-- `/reset_system` - Service to reset the system
+- `/execute_action` - Endpoint to execute specific actions
+- `/get_system_state` - Endpoint to query system state
+- `/reset_system` - Endpoint to reset the system
 
-## Safety Features
+## Reliability Features
 
-The nervous system implements several safety features:
+The communication layer implements several reliability features:
 
-- Velocity and acceleration limits
-- Collision avoidance
-- Emergency stop functionality
-- System state monitoring
+- Rate limiting and throttling
+- Error handling and retry mechanisms
+- Circuit breaker patterns
+- Health monitoring and alerts
