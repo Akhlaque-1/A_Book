@@ -1,0 +1,263 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "17896441": [
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "1cf99db0": [
+      605
+    ],
+    "361507c1": [
+      869,
+      541
+    ],
+    "54f44165": [
+      924
+    ],
+    "588bd741": [
+      324
+    ],
+    "5e95c892": [
+      647
+    ],
+    "7d744e69": [
+      741
+    ],
+    "94c0fd3a": [
+      383
+    ],
+    "98cd2349": [
+      469
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "ece68872": [
+      881
+    ],
+    "ed3056d0": [
+      12
+    ],
+    "styles": [
+      48,
+      354,
+      401,
+      541,
+      634,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "12": {
+      "js": [
+        {
+          "file": "assets/js/ed3056d0.98ae6ac7.js",
+          "hash": "b5c630290bab27c2",
+          "publicPath": "/robot-system/assets/js/ed3056d0.98ae6ac7.js"
+        }
+      ]
+    },
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.6c80fc51.js",
+          "hash": "9fb075545468bc1e",
+          "publicPath": "/robot-system/assets/js/a94703ab.6c80fc51.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.08d9d0f8.js",
+          "hash": "a47b752b0925260e",
+          "publicPath": "/robot-system/assets/js/a7bd4aaa.08d9d0f8.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.468d61d1.js",
+          "hash": "bc737decd6e999df",
+          "publicPath": "/robot-system/assets/js/a7456010.468d61d1.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.faff08a2.js",
+          "hash": "3cb9cf6f2ff675c4",
+          "publicPath": "/robot-system/assets/js/237.faff08a2.js"
+        }
+      ]
+    },
+    "324": {
+      "js": [
+        {
+          "file": "assets/js/588bd741.c4afef96.js",
+          "hash": "2f25bc5b8963a12b",
+          "publicPath": "/robot-system/assets/js/588bd741.c4afef96.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.91f38eae.js",
+          "hash": "0782a00040b02e52",
+          "publicPath": "/robot-system/assets/js/runtime~main.91f38eae.js"
+        }
+      ]
+    },
+    "383": {
+      "js": [
+        {
+          "file": "assets/js/94c0fd3a.e8292c1d.js",
+          "hash": "ea0042be3a5a6689",
+          "publicPath": "/robot-system/assets/js/94c0fd3a.e8292c1d.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.01810d38.js",
+          "hash": "4bee449696649cd3",
+          "publicPath": "/robot-system/assets/js/17896441.01810d38.js"
+        }
+      ]
+    },
+    "469": {
+      "js": [
+        {
+          "file": "assets/js/98cd2349.432dfd9c.js",
+          "hash": "01053a770c2899c1",
+          "publicPath": "/robot-system/assets/js/98cd2349.432dfd9c.js"
+        }
+      ]
+    },
+    "541": {
+      "js": [
+        {
+          "file": "assets/js/361507c1.2eba4805.js",
+          "hash": "8549fce14fdb099f",
+          "publicPath": "/robot-system/assets/js/361507c1.2eba4805.js"
+        }
+      ]
+    },
+    "605": {
+      "js": [
+        {
+          "file": "assets/js/1cf99db0.46140506.js",
+          "hash": "4152d62e9a4bb54b",
+          "publicPath": "/robot-system/assets/js/1cf99db0.46140506.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.d4593ca5.js",
+          "hash": "5ee9ba7182f8e615",
+          "publicPath": "/robot-system/assets/js/c4f5d8e4.d4593ca5.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.7d954f35.js",
+          "hash": "1f4bd78ccf1f61a5",
+          "publicPath": "/robot-system/assets/js/5e95c892.7d954f35.js"
+        }
+      ]
+    },
+    "741": {
+      "js": [
+        {
+          "file": "assets/js/7d744e69.7bf98ff2.js",
+          "hash": "9ac1a5f921ef132f",
+          "publicPath": "/robot-system/assets/js/7d744e69.7bf98ff2.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.faa5080b.js",
+          "hash": "706c19d611a0ba7b",
+          "publicPath": "/robot-system/assets/js/aba21aa0.faa5080b.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.a788fb44.js",
+          "hash": "f07d27c265edd81e",
+          "publicPath": "/robot-system/assets/js/main.a788fb44.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.1c87a839.css",
+          "hash": "83931a9a1c750b4c",
+          "publicPath": "/robot-system/assets/css/styles.1c87a839.css"
+        }
+      ]
+    },
+    "881": {
+      "js": [
+        {
+          "file": "assets/js/ece68872.01baddd5.js",
+          "hash": "185b9e8c63e16c1d",
+          "publicPath": "/robot-system/assets/js/ece68872.01baddd5.js"
+        }
+      ]
+    },
+    "924": {
+      "js": [
+        {
+          "file": "assets/js/54f44165.58543407.js",
+          "hash": "05b92b79f6c95154",
+          "publicPath": "/robot-system/assets/js/54f44165.58543407.js"
+        }
+      ]
+    }
+  }
+}

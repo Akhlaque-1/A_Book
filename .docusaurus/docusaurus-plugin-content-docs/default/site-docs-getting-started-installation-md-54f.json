@@ -5,7 +5,7 @@
   "source": "@site/docs/getting-started/installation.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/installation",
-  "permalink": "/docs/getting-started/installation",
+  "permalink": "/robot-system/docs/getting-started/installation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/getting-started/installation.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/docs/intro/"
+    "permalink": "/robot-system/docs/intro/"
   },
   "next": {
     "title": "Quick Start",
-    "permalink": "/docs/getting-started/quick-start"
+    "permalink": "/robot-system/docs/getting-started/quick-start"
   }
 }

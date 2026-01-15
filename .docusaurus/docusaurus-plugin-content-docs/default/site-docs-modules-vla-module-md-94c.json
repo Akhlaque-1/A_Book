@@ -5,7 +5,7 @@
   "source": "@site/docs/modules/vla-module.md",
   "sourceDirName": "modules",
   "slug": "/modules/vla-module",
-  "permalink": "/docs/modules/vla-module",
+  "permalink": "/robot-system/docs/modules/vla-module",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/modules/vla-module.md",
@@ -15,6 +15,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "AI-Robot Brain",
-    "permalink": "/docs/modules/ai-robot-brain"
+    "permalink": "/robot-system/docs/modules/ai-robot-brain"
   }
 }

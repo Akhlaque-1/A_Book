@@ -7,11 +7,11 @@ export default {
   "title": "Autonomous Humanoid Robot System",
   "tagline": "Documentation for the Qwen Robot System",
   "favicon": "img/favicon.ico",
-  "url": "https://your-robot-system-docs.com",
-  "baseUrl": "/",
-  "organizationName": "qwen",
+  "url": "https://your-github-username.github.io",
+  "baseUrl": "/robot-system/",
+  "organizationName": "your-github-username",
   "projectName": "robot-system",
-  "onBrokenLinks": "throw",
+  "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [

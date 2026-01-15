@@ -5,7 +5,7 @@
   "source": "@site/docs/modules/digital-twin.md",
   "sourceDirName": "modules",
   "slug": "/modules/digital-twin",
-  "permalink": "/docs/modules/digital-twin",
+  "permalink": "/robot-system/docs/modules/digital-twin",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/modules/digital-twin.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "ROS2 Nervous System",
-    "permalink": "/docs/modules/ros2-nervous-system"
+    "permalink": "/robot-system/docs/modules/ros2-nervous-system"
   },
   "next": {
     "title": "AI-Robot Brain",
-    "permalink": "/docs/modules/ai-robot-brain"
+    "permalink": "/robot-system/docs/modules/ai-robot-brain"
   }
 }

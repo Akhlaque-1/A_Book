@@ -3,96 +3,61 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    path: '/robot-system/chatbot/',
+    component: ComponentCreator('/robot-system/chatbot/', '5c5'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
-    path: '/chatbot/',
-    component: ComponentCreator('/chatbot/', '5d9'),
-    exact: true
-  },
-  {
-    path: '/docs',
-    component: ComponentCreator('/docs', '20f'),
+    path: '/robot-system/docs',
+    component: ComponentCreator('/robot-system/docs', '3d6'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '392'),
+        path: '/robot-system/docs',
+        component: ComponentCreator('/robot-system/docs', '18e'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '532'),
+            path: '/robot-system/docs',
+            component: ComponentCreator('/robot-system/docs', '49c'),
             routes: [
               {
-                path: '/docs/getting-started/installation',
-                component: ComponentCreator('/docs/getting-started/installation', '267'),
+                path: '/robot-system/docs/getting-started/installation',
+                component: ComponentCreator('/robot-system/docs/getting-started/installation', '1e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/getting-started/quick-start',
-                component: ComponentCreator('/docs/getting-started/quick-start', '09c'),
+                path: '/robot-system/docs/getting-started/quick-start',
+                component: ComponentCreator('/robot-system/docs/getting-started/quick-start', '3c6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro/',
-                component: ComponentCreator('/docs/intro/', '014'),
+                path: '/robot-system/docs/intro/',
+                component: ComponentCreator('/robot-system/docs/intro/', '68a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/modules/ai-robot-brain',
-                component: ComponentCreator('/docs/modules/ai-robot-brain', 'b4a'),
+                path: '/robot-system/docs/modules/ai-robot-brain',
+                component: ComponentCreator('/robot-system/docs/modules/ai-robot-brain', '5e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/modules/digital-twin',
-                component: ComponentCreator('/docs/modules/digital-twin', '660'),
+                path: '/robot-system/docs/modules/digital-twin',
+                component: ComponentCreator('/robot-system/docs/modules/digital-twin', 'b51'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/modules/ros2-nervous-system',
-                component: ComponentCreator('/docs/modules/ros2-nervous-system', 'fe8'),
+                path: '/robot-system/docs/modules/ros2-nervous-system',
+                component: ComponentCreator('/robot-system/docs/modules/ros2-nervous-system', 'd97'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/modules/vla-module',
-                component: ComponentCreator('/docs/modules/vla-module', '435'),
+                path: '/robot-system/docs/modules/vla-module',
+                component: ComponentCreator('/robot-system/docs/modules/vla-module', '346'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -103,8 +68,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '2e1'),
+    path: '/robot-system/',
+    component: ComponentCreator('/robot-system/', 'cfa'),
     exact: true
   },
   {

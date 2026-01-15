@@ -5,7 +5,7 @@
   "source": "@site/docs/modules/ros2-nervous-system.md",
   "sourceDirName": "modules",
   "slug": "/modules/ros2-nervous-system",
-  "permalink": "/docs/modules/ros2-nervous-system",
+  "permalink": "/robot-system/docs/modules/ros2-nervous-system",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/modules/ros2-nervous-system.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/docs/getting-started/quick-start"
+    "permalink": "/robot-system/docs/getting-started/quick-start"
   },
   "next": {
     "title": "Digital Twin",
-    "permalink": "/docs/modules/digital-twin"
+    "permalink": "/robot-system/docs/modules/digital-twin"
   }
 }

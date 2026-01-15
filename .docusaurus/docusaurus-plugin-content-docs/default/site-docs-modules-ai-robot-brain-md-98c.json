@@ -5,7 +5,7 @@
   "source": "@site/docs/modules/ai-robot-brain.md",
   "sourceDirName": "modules",
   "slug": "/modules/ai-robot-brain",
-  "permalink": "/docs/modules/ai-robot-brain",
+  "permalink": "/robot-system/docs/modules/ai-robot-brain",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/modules/ai-robot-brain.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Digital Twin",
-    "permalink": "/docs/modules/digital-twin"
+    "permalink": "/robot-system/docs/modules/digital-twin"
   },
   "next": {
     "title": "Vision-Language-Action (VLA) Module",
-    "permalink": "/docs/modules/vla-module"
+    "permalink": "/robot-system/docs/modules/vla-module"
   }
 }

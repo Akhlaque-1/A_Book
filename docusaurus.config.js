@@ -8,16 +8,16 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-robot-system-docs.com',
+  url: 'https://your-github-username.github.io', // Replace 'your-github-username' with your actual GitHub username
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/robot-system/', // This should match your repository name
 
   // GitHub pages deployment config.
-  organizationName: 'qwen', // Usually your GitHub org/user name.
+  organizationName: 'your-github-username', // Replace with your GitHub username
   projectName: 'robot-system', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set

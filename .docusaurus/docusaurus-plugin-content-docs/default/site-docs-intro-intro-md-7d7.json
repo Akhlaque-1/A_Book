@@ -5,7 +5,7 @@
   "source": "@site/docs/intro/intro.md",
   "sourceDirName": "intro",
   "slug": "/intro/",
-  "permalink": "/docs/intro/",
+  "permalink": "/robot-system/docs/intro/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/intro/intro.md",
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Installation",
-    "permalink": "/docs/getting-started/installation"
+    "permalink": "/robot-system/docs/getting-started/installation"
   }
 }
