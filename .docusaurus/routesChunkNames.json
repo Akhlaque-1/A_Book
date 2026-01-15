@@ -1,53 +1,53 @@
 {
-  "/robot-system/chatbot/-5c5": {
+  "/chatbot/-5d9": {
     "__comp": "361507c1",
     "__context": {
       "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
   },
-  "/robot-system/docs-3d6": {
+  "/docs-20f": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/robot-system/docs-18e": {
+  "/docs-392": {
     "__comp": "a7bd4aaa",
-    "__props": "ed3056d0"
+    "__props": "0058b4c6"
   },
-  "/robot-system/docs-49c": {
+  "/docs-532": {
     "__comp": "a94703ab"
   },
-  "/robot-system/docs/getting-started/installation-1e8": {
+  "/docs/getting-started/installation-267": {
     "__comp": "17896441",
     "content": "54f44165"
   },
-  "/robot-system/docs/getting-started/quick-start-3c6": {
+  "/docs/getting-started/quick-start-09c": {
     "__comp": "17896441",
     "content": "588bd741"
   },
-  "/robot-system/docs/intro/-68a": {
+  "/docs/intro/-014": {
     "__comp": "17896441",
     "content": "7d744e69"
   },
-  "/robot-system/docs/modules/ai-robot-brain-5e7": {
+  "/docs/modules/ai-robot-brain-b4a": {
     "__comp": "17896441",
     "content": "98cd2349"
   },
-  "/robot-system/docs/modules/digital-twin-b51": {
+  "/docs/modules/digital-twin-660": {
     "__comp": "17896441",
     "content": "ece68872"
   },
-  "/robot-system/docs/modules/ros2-nervous-system-d97": {
+  "/docs/modules/ros2-nervous-system-fe8": {
     "__comp": "17896441",
     "content": "1cf99db0"
   },
-  "/robot-system/docs/modules/vla-module-346": {
+  "/docs/modules/vla-module-435": {
     "__comp": "17896441",
     "content": "94c0fd3a"
   },
-  "/robot-system/-cfa": {
+  "/-2e1": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "a7456010"

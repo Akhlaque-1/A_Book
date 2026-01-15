@@ -1,14 +1,14 @@
 {
   "id": "getting-started/quick-start",
   "title": "Quick Start",
-  "description": "This guide will help you get the Autonomous Humanoid Robot System up and running quickly.",
+  "description": "This guide will help you get started with navigating and using the A_Book documentation effectively.",
   "source": "@site/docs/getting-started/quick-start.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/quick-start",
-  "permalink": "/robot-system/docs/getting-started/quick-start",
+  "permalink": "/docs/getting-started/quick-start",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/getting-started/quick-start.md",
+  "editUrl": "https://github.com/Akhlaque-1/A_Book/tree/main/docs/docs/getting-started/quick-start.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Installation",
-    "permalink": "/robot-system/docs/getting-started/installation"
+    "title": "Setup",
+    "permalink": "/docs/getting-started/installation"
   },
   "next": {
-    "title": "ROS2 Nervous System",
-    "permalink": "/robot-system/docs/modules/ros2-nervous-system"
+    "title": "Core Communication Layer",
+    "permalink": "/docs/modules/ros2-nervous-system"
   }
 }

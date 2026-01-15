@@ -1,14 +1,14 @@
 {
   "id": "getting-started/installation",
-  "title": "Installation",
-  "description": "This guide will walk you through the installation process for the Autonomous Humanoid Robot System.",
+  "title": "Setup",
+  "description": "This guide will walk you through how to set up and use the A_Book documentation.",
   "source": "@site/docs/getting-started/installation.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/installation",
-  "permalink": "/robot-system/docs/getting-started/installation",
+  "permalink": "/docs/getting-started/installation",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/getting-started/installation.md",
+  "editUrl": "https://github.com/Akhlaque-1/A_Book/tree/main/docs/docs/getting-started/installation.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Introduction",
-    "permalink": "/robot-system/docs/intro/"
+    "permalink": "/docs/intro/"
   },
   "next": {
     "title": "Quick Start",
-    "permalink": "/robot-system/docs/getting-started/quick-start"
+    "permalink": "/docs/getting-started/quick-start"
   }
 }

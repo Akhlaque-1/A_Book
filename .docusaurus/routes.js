@@ -3,61 +3,61 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/robot-system/chatbot/',
-    component: ComponentCreator('/robot-system/chatbot/', '5c5'),
+    path: '/chatbot/',
+    component: ComponentCreator('/chatbot/', '5d9'),
     exact: true
   },
   {
-    path: '/robot-system/docs',
-    component: ComponentCreator('/robot-system/docs', '3d6'),
+    path: '/docs',
+    component: ComponentCreator('/docs', '20f'),
     routes: [
       {
-        path: '/robot-system/docs',
-        component: ComponentCreator('/robot-system/docs', '18e'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '392'),
         routes: [
           {
-            path: '/robot-system/docs',
-            component: ComponentCreator('/robot-system/docs', '49c'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '532'),
             routes: [
               {
-                path: '/robot-system/docs/getting-started/installation',
-                component: ComponentCreator('/robot-system/docs/getting-started/installation', '1e8'),
+                path: '/docs/getting-started/installation',
+                component: ComponentCreator('/docs/getting-started/installation', '267'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robot-system/docs/getting-started/quick-start',
-                component: ComponentCreator('/robot-system/docs/getting-started/quick-start', '3c6'),
+                path: '/docs/getting-started/quick-start',
+                component: ComponentCreator('/docs/getting-started/quick-start', '09c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robot-system/docs/intro/',
-                component: ComponentCreator('/robot-system/docs/intro/', '68a'),
+                path: '/docs/intro/',
+                component: ComponentCreator('/docs/intro/', '014'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robot-system/docs/modules/ai-robot-brain',
-                component: ComponentCreator('/robot-system/docs/modules/ai-robot-brain', '5e7'),
+                path: '/docs/modules/ai-robot-brain',
+                component: ComponentCreator('/docs/modules/ai-robot-brain', 'b4a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robot-system/docs/modules/digital-twin',
-                component: ComponentCreator('/robot-system/docs/modules/digital-twin', 'b51'),
+                path: '/docs/modules/digital-twin',
+                component: ComponentCreator('/docs/modules/digital-twin', '660'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robot-system/docs/modules/ros2-nervous-system',
-                component: ComponentCreator('/robot-system/docs/modules/ros2-nervous-system', 'd97'),
+                path: '/docs/modules/ros2-nervous-system',
+                component: ComponentCreator('/docs/modules/ros2-nervous-system', 'fe8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robot-system/docs/modules/vla-module',
-                component: ComponentCreator('/robot-system/docs/modules/vla-module', '346'),
+                path: '/docs/modules/vla-module',
+                component: ComponentCreator('/docs/modules/vla-module', '435'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -68,8 +68,8 @@ export default [
     ]
   },
   {
-    path: '/robot-system/',
-    component: ComponentCreator('/robot-system/', 'cfa'),
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {

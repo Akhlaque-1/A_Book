@@ -1,4 +1,5 @@
 export default {
+  "0058b4c6": [() => import(/* webpackChunkName: "0058b4c6" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-175.json")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "1cf99db0": [() => import(/* webpackChunkName: "1cf99db0" */ "@site/docs/modules/ros2-nervous-system.md"), "@site/docs/modules/ros2-nervous-system.md", require.resolveWeak("@site/docs/modules/ros2-nervous-system.md")],
   "361507c1": [() => import(/* webpackChunkName: "361507c1" */ "@site/src/pages/chatbot/index.js"), "@site/src/pages/chatbot/index.js", require.resolveWeak("@site/src/pages/chatbot/index.js")],
@@ -14,5 +15,4 @@ export default {
   "a94703ab": [() => import(/* webpackChunkName: "a94703ab" */ "@theme/DocRoot"), "@theme/DocRoot", require.resolveWeak("@theme/DocRoot")],
   "aba21aa0": [() => import(/* webpackChunkName: "aba21aa0" */ "@generated/docusaurus-plugin-content-docs/default/__plugin.json"), "@generated/docusaurus-plugin-content-docs/default/__plugin.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/__plugin.json")],
   "c4f5d8e4": [() => import(/* webpackChunkName: "c4f5d8e4" */ "@site/src/pages/index.js"), "@site/src/pages/index.js", require.resolveWeak("@site/src/pages/index.js")],
-  "ece68872": [() => import(/* webpackChunkName: "ece68872" */ "@site/docs/modules/digital-twin.md"), "@site/docs/modules/digital-twin.md", require.resolveWeak("@site/docs/modules/digital-twin.md")],
-  "ed3056d0": [() => import(/* webpackChunkName: "ed3056d0" */ "@generated/docusaurus-plugin-content-docs/default/p/robot-system-docs-bcc.json"), "@generated/docusaurus-plugin-content-docs/default/p/robot-system-docs-bcc.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/robot-system-docs-bcc.json")],};
+  "ece68872": [() => import(/* webpackChunkName: "ece68872" */ "@site/docs/modules/digital-twin.md"), "@site/docs/modules/digital-twin.md", require.resolveWeak("@site/docs/modules/digital-twin.md")],};

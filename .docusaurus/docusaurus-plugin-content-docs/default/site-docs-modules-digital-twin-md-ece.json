@@ -1,24 +1,24 @@
 {
   "id": "modules/digital-twin",
-  "title": "Digital Twin",
-  "description": "The Digital Twin module provides physics simulation and environment modeling for the Autonomous Humanoid Robot System. It enables virtual testing for humanoid robots using Gazebo and Unity.",
+  "title": "Virtual Environment Modeling",
+  "description": "Virtual Environment Modeling refers to the practice of creating digital representations of real-world systems, processes, or environments for testing, validation, and development purposes.",
   "source": "@site/docs/modules/digital-twin.md",
   "sourceDirName": "modules",
   "slug": "/modules/digital-twin",
-  "permalink": "/robot-system/docs/modules/digital-twin",
+  "permalink": "/docs/modules/digital-twin",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/modules/digital-twin.md",
+  "editUrl": "https://github.com/Akhlaque-1/A_Book/tree/main/docs/docs/modules/digital-twin.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ROS2 Nervous System",
-    "permalink": "/robot-system/docs/modules/ros2-nervous-system"
+    "title": "Core Communication Layer",
+    "permalink": "/docs/modules/ros2-nervous-system"
   },
   "next": {
-    "title": "AI-Robot Brain",
-    "permalink": "/robot-system/docs/modules/ai-robot-brain"
+    "title": "Intelligent Processing System",
+    "permalink": "/docs/modules/ai-robot-brain"
   }
 }

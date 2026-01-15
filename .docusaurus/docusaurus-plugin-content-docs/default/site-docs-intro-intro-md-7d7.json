@@ -1,14 +1,14 @@
 {
   "id": "intro/intro",
   "title": "Introduction",
-  "description": "Welcome to the Autonomous Humanoid Robot System documentation. This repository contains the implementation of an autonomous humanoid robot system with four core modules:",
+  "description": "Welcome to the A_Book documentation. This repository contains comprehensive guides and resources covering various topics in technology, programming, and development practices.",
   "source": "@site/docs/intro/intro.md",
   "sourceDirName": "intro",
   "slug": "/intro/",
-  "permalink": "/robot-system/docs/intro/",
+  "permalink": "/docs/intro/",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/intro/intro.md",
+  "editUrl": "https://github.com/Akhlaque-1/A_Book/tree/main/docs/docs/intro/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Installation",
-    "permalink": "/robot-system/docs/getting-started/installation"
+    "title": "Setup",
+    "permalink": "/docs/getting-started/installation"
   }
 }

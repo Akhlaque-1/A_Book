@@ -1,24 +1,24 @@
 {
   "id": "modules/ros2-nervous-system",
-  "title": "ROS2 Nervous System",
-  "description": "The Robotic Nervous System is the core communication layer of the Autonomous Humanoid Robot System. It manages communication between sensors, actuators, and AI modules using ROS 2.",
+  "title": "Core Communication Layer",
+  "description": "The Core Communication Layer is the fundamental system that connects all components of a distributed application. It manages communication between different modules and services.",
   "source": "@site/docs/modules/ros2-nervous-system.md",
   "sourceDirName": "modules",
   "slug": "/modules/ros2-nervous-system",
-  "permalink": "/robot-system/docs/modules/ros2-nervous-system",
+  "permalink": "/docs/modules/ros2-nervous-system",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/docs/modules/ros2-nervous-system.md",
+  "editUrl": "https://github.com/Akhlaque-1/A_Book/tree/main/docs/docs/modules/ros2-nervous-system.md",
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Quick Start",
-    "permalink": "/robot-system/docs/getting-started/quick-start"
+    "permalink": "/docs/getting-started/quick-start"
   },
   "next": {
-    "title": "Digital Twin",
-    "permalink": "/robot-system/docs/modules/digital-twin"
+    "title": "Virtual Environment Modeling",
+    "permalink": "/docs/modules/digital-twin"
   }
 }

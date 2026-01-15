@@ -13,8 +13,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://your-github-username.github.io",
-      "baseUrl": "/robot-system/"
+      "url": "https://a-book-akhlaque-1.vercel.app",
+      "baseUrl": "/"
     }
   }
 }

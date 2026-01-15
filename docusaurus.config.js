@@ -62,7 +62,7 @@ const config = {
         title: 'A_Book Docs',
         logo: {
           alt: 'A_Book Logo',
-          src: 'img/logo.svg',
+          src: 'img/undraw_docusaurus_mountain.svg',
         },
         items: [
           {
@@ -108,8 +108,8 @@ const config = {
                 href: 'https://twitter.com/docusaurus',
               },
               {
-                label: 'Robotics Stack Exchange',
-                href: 'https://robotics.stackexchange.com/',
+                label: 'Docusaurus Community',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
             ],
           },

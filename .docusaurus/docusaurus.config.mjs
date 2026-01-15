@@ -4,13 +4,11 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Autonomous Humanoid Robot System",
-  "tagline": "Documentation for the Qwen Robot System",
+  "title": "A_Book Documentation",
+  "tagline": "Comprehensive documentation and guides",
   "favicon": "img/favicon.ico",
-  "url": "https://your-github-username.github.io",
-  "baseUrl": "/robot-system/",
-  "organizationName": "your-github-username",
-  "projectName": "robot-system",
+  "url": "https://a-book-akhlaque-1.vercel.app",
+  "baseUrl": "/",
   "onBrokenLinks": "warn",
   "i18n": {
     "defaultLocale": "en",
@@ -26,11 +24,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "D:\\qwen\\sidebars.js",
-          "editUrl": "https://github.com/qwen/robot-system/tree/main/docs/"
+          "editUrl": "https://github.com/Akhlaque-1/A_Book/tree/main/docs/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/qwen/robot-system/tree/main/blog/"
+          "editUrl": "https://github.com/Akhlaque-1/A_Book/tree/main/blog/"
         },
         "theme": {
           "customCss": "D:\\qwen\\src\\css\\custom.css"
@@ -41,10 +39,10 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Robot System Docs",
+      "title": "A_Book Docs",
       "logo": {
-        "alt": "Robot System Logo",
-        "src": "img/logo.svg"
+        "alt": "A_Book Logo",
+        "src": "img/undraw_docusaurus_mountain.svg"
       },
       "items": [
         {
@@ -64,7 +62,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/qwen/robot-system",
+          "href": "https://github.com/Akhlaque-1/A_Book",
           "label": "GitHub",
           "position": "right"
         }
@@ -99,8 +97,8 @@ export default {
               "href": "https://twitter.com/docusaurus"
             },
             {
-              "label": "Robotics Stack Exchange",
-              "href": "https://robotics.stackexchange.com/"
+              "label": "Docusaurus Community",
+              "href": "https://discordapp.com/invite/docusaurus"
             }
           ]
         },
@@ -113,12 +111,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/qwen/robot-system"
+              "href": "https://github.com/Akhlaque-1/A_Book"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2026 Qwen Robot System. Built with Docusaurus."
+      "copyright": "Copyright © 2026 A_Book Project. Built with Docusaurus."
     },
     "prism": {
       "theme": {
